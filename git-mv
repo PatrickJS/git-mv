@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mv $1 $2
+git mv $2 $1
+
+exit 0
