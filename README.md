@@ -3,6 +3,8 @@ Rename your files in order to keep git history. Whenever you need to rebase or u
 
 internally the code does
 ```bash
-mv newname.js oldname.js
-git mv oldname.js newname.js
+ __git-mv_________________________
+| $ mv newname.js oldname.js      |
+| $ git mv oldname.js newname.js  |
+ ---------------------------------
 ```
